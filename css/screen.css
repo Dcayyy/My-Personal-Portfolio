@@ -1378,7 +1378,7 @@ header .main-header img:hover {
 	}
 
 	.main-content form {
-		width: 550px;
+		width: 400px;
 	}
 }
 
@@ -1393,13 +1393,15 @@ header .main-header img:hover {
 	}
 
 	.main-content p {
-		width: 80%;
+		width: 100%;
 		font-size: 17px;
 	}
 
 	.main-content form {
-		width: 450px;
+		width: 300px;
 	}
+
+
 
 
 }
