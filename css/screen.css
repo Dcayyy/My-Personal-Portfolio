@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 p {
 	padding-bottom: 20px;
 	width: 30%;
 	min-height: 100vh;
-	background-color: #dfb284 ;
+	background-color: #dfb284;
 	box-sizing: border-box;
 }
 
@@ -1360,17 +1360,25 @@ header .main-header img:hover {
 		margin: 0 13px;
 		display: inline-block;
 	}
+
+	.main-content form {
+		width: 550px;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.main-content {
-		margin-left: 5%;
+		margin-left: 3.5%;
 		width: 100%;
 	}
 
 	.main-content .submit-button {
 		margin-top: 5%;
 		width: auto;
+	}
+
+	.main-content form {
+		width: 550px;
 	}
 }
 
@@ -1381,26 +1389,19 @@ header .main-header img:hover {
 
 	.main-content h1 {
 		width: 100%;
-		text-align: center;
+		font-size: 35px;
 	}
 
 	.main-content p {
 		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
-		text-align: center;
+		font-size: 17px;
 	}
 
 	.main-content form {
-		padding: 10px 20px;
-		box-sizing: border-box;
-		text-align: center;
+		width: 450px;
 	}
 
-	.main-content .input-fields {
-		margin-left: auto;
-		margin-right: auto;
-	}
+
 }
 
 /* End Contact HTML file */
