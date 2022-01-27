@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>My Personal Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/screen.css">
+</head>
+<body>
+  <header>
+    <div class="static-heading-container">
+        <p class="heading-title group">My Portfolio</p>
+        <div class="navigation">
+            <nav class="static-site-nav">
+                <ul class="group">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="skills.html">SKILLS</a></li>
+                    <li><a href="education.html">EDUCATION</a></li>
+                    <li><a href="work.html">WORK</a></li>
+                    <li class="about-hide-small"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="contact-container">
+    <div class="main-content group">
+        <h1>Contact Me</h1>
+        <p>If you have any questions feel free to send me a message</p>
+        <form action="contact-servlet" method="POST">
+            <input class="input-fields" type="text" name="user-name" placeholder="Enter your full name">
+            <input class="input-fields" type="text" name="user-email" placeholder="Enter your email">
+            <textarea class="input-fields" name="user-message" placeholder="Enter your message"></textarea>
+            <input class="submit-button" type="submit" value="Submit"> 
+    </div>
+</div>
+
+<div class="social-image-container group">
+    <div class="images-frame">
+        <div class="image-frame group">
+            <a href="https://www.instagram.com/zaharimikov/">
+                <img src="images/contact/instagram.png" alt="instagram image can't load">
+            </a>
+        </div>
+        <div class="image-frame group">
+            <a href="https://www.facebook.com/zahari.mikov">
+                <img src="images/contact/facebook.png" alt="facebook image can't load">
+            </a>
+        </div>
+        <div class="image-frame group">
+            <a href="https://www.linkedin.com/in/zahari-mikov-818a6717a/" alt="linkedin image can't load">
+                <img src="images/contact/linkedin.png">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
